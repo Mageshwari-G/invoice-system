@@ -1,0 +1,41 @@
+
+/* table{
+    width:200px;
+    height:100px;
+
+    
+    color:brown;
+}
+table,th,td{
+    border-collapse: collapse;
+    border-color:solid black;
+    
+}
+th{
+    background-color:rgb(183, 189, 183);
+    text-transform: uppercase;
+
+    
+
+}td{
+    background-color:pink;
+
+} */
+
+
+
+
+table{
+    width:700px;
+    height:300px;
+    color: white;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 1000px;
+    padding-top: 800px;
+
+
+}

@@ -1,0 +1,148 @@
+
+h1{
+    padding: 50px;
+    font-size: 70px;
+    font-style: italic;
+}
+h2{
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 40px;
+
+}
+.angular{
+height:300%;
+/* width:400%; */
+
+background-position: cover;  
+padding-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: top;
+    padding-left:50px ;
+    padding-right: 50px;
+    font-size: 28px; 
+    color:red;
+    float:right;
+    
+}
+
+
+
+nav ul{
+    display:flex;
+float:right;
+/* padding:30px;
+word-spacing: 100px; */
+
+
+}
+nav ul li{
+    padding:20px 30px;
+    color:black;
+    padding-bottom: 20px;
+}
+span{
+    color:red
+}
+/* nav ul  a{
+color:black;
+    padding-top: -0px ;
+    font-size: 40px;
+    font-style: bold;
+    padding:30px;
+
+} */
+nav ul a:hover{
+    color:red;
+    text-decoration: double;
+    padding-left:80px;
+}
+form{
+    position: left;
+    padding-top: 50px;
+    color:black;
+    border-radius: 70px;
+    background:crimson;
+    padding-left: 30px;
+    
+}
+.content{
+    padding-left:200px;
+    padding:50px 40px;
+    align-items: center;
+    border-radius: 50px;
+   
+
+
+}
+.place  {
+size:200px;
+align-items: center;
+transform: translate(+35%);
+padding:10px;
+border:red;
+
+}
+button{
+    border:red;
+    background-color: red;
+    height:50px;
+    width:150px;
+    border-radius: 40px;
+    color:white;
+
+}
+.skills{
+ background-color: black;
+ height:400px;
+ width: 100%;
+ color:red;
+ /* padding-left:30px; */
+ text-align: center;
+ float:center;
+ border:20px;
+ margin:30px;
+}
+
+.title:hover{
+    align-items: center;
+color:red;
+}
+
+.title h1{
+    color:red;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.box{
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+ p{
+    text-decoration: underline ;
+    color:white;
+    font-size:18px;
+    justify-content: center;
+ }
+ 
+ .card{
+    height:300px;
+    width:390px;
+    border-radius: 26px;
+    background-color: grey;
+    margin:14px;
+    justify-content: center;
+ }
+ a{
+    display:flex;
+
+ }
+ nav a{
+    padding:30px;
+    margin-right: 0px;
+ }

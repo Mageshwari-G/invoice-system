@@ -1,0 +1,40 @@
+<div class="container">
+
+<form>
+  
+  
+      <label>INVOICE NUMBER</label>
+
+      <input type="text" name="InvoiceNo" [(ngModel)]="title. InvoiceNo"><br><br><br>
+
+      
+
+
+      <label>CUSTOMER NAME</label>
+      <input type="text" name="custname" [(ngModel)]="title.custname"><br><br><br>
+
+
+
+
+         <label>PENALTY AMOUNT</label>
+         <input type="text" name="pendingamt" [(ngModel)]="title.pendingamt"><br><br><br>
+
+
+        <label>INVOICE AMOUNT</label>
+        <input type="text" name="invoiceamt" [(ngModel)]="title.Invoiceamt"><br><br><br>
+
+
+
+        <select class="form-group"name="status" [(ngModel)]="title.status"><br><br>
+        <label>STATUS</label>
+        <option value="paid">PAID </option>
+        <option value="unpaid">UNPAID </option>
+
+        </select>
+        
+
+    <button (click)="submit()">SUBMIT</button><br>
+    <br>
+
+  </form>
+  </div>

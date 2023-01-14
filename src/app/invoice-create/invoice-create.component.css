@@ -1,0 +1,14 @@
+button{
+    color:red;
+    background-color: blue;
+    font-size:50px;
+    border-radius: 100px;
+    border-spacing: 200px;
+    word-spacing: 100px;
+}
+form{
+    background-color: black;
+    font-size: 30px;
+    color:white;
+    background: pink;
+}

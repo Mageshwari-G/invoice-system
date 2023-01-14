@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+<table class="table" border="10px">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">CUSTNAME</th>
+        <th scope="col">PENDINDAMT</th>
+        <th scope="col">INVOICEAMT</th>
+        <th scope="col">STATUS</th>
+        <th scope="col">VIEW</th>
+        <th scope="col">DELETE</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+    
+      
+ <tr *ngFor="let items of list">
+      
+<td>{{items.custname}}</td>
+<td>{{items.pendingamt}}</td>
+<td>{{items.Invoiceamt}}</td>
+<td>{{items.status}}</td>
+<td><a [routerLink]="'/view/'+items.id">VIEW</a></td>
+<td><button (click)="delete(items)">DELETE</button></td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+
